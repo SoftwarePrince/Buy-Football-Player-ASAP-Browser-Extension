@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Buy Football Player ASAP",
+  "description": "buy football player. developed by SoftwarePrince.com",
+  "version": "1.0",
+
+  "permissions": ["tabs", "https://www.footballindex.co.uk/*", "activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  }
+}
