@@ -1,0 +1,101 @@
+body {
+  min-width: 170px;
+  height: 100px;
+}
+
+.plus-minus-icon {
+  float: right;
+  margin-top: 11px;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.fb-login input {
+  width: 111px;
+  display: inline;
+}
+input {
+  min-height: 33px;
+  min-width: 333px;
+}
+.time-intervals input {
+  min-width: 278px;
+  display: inline;
+}
+.time-interval-block,
+.comment-block {
+  margin-bottom: 5px;
+}
+
+.comment-input {
+  width: 390px;
+  display: inline;
+}
+
+.comment-close-btn {
+  margin-top: -45px;
+  vertical-align: middle;
+}
+
+#website-list {
+  height: 140px;
+}
+
+/* Tab Content */
+ul.tabs {
+  padding: 7px 0;
+  margin: 0;
+  font-size: 0;
+  list-style-type: none;
+  text-align: left; /*set to left, center, or right to align the tabs as desired*/
+  padding-left: 5px; /* Offset of the first tab */
+}
+
+ul.tabs li {
+  display: inline;
+  margin: 0; /*no distance between tabs*/
+  background: White;
+  margin-left: -4px;
+}
+
+ul.tabs li a {
+  font: normal 12px Verdana;
+  text-decoration: none;
+  position: relative;
+  padding: 7px 22px;
+  color: #000;
+  outline: none;
+  background: #f6f6f9;
+  border: 1px solid #ccc;
+  border-right: 0;
+}
+
+/*Note: IE8 and earlier doesn't support li:last-child. You have to add another class to the last tab (LI) and specify its border-right as below.*/
+ul.tabs li:last-child a {
+  border-right: 1px solid grey;
+}
+
+ul.tabs li a:hover {
+  color: #000;
+  background: white;
+}
+
+ul.tabs li.selected a,
+ul.tabs li.selected a:hover {
+  top: 0px;
+  font-weight: normal;
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  color: #000;
+}
+
+ul.tabs li.selected a:hover {
+  text-decoration: none;
+}
+
+div.tabcontents {
+  border-top: 1px solid #ccc;
+  padding: 10px 5px;
+}
